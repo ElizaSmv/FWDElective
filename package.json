@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "bootstrap": "^5.3.0-alpha1",
+    "lodash-es": "^4.17.21",
+    "package.json": "^2.0.1"
+  },
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizaSmv/FrontEndElective.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizaSmv/FrontEndElective/issues"
+  },
+  "homepage": "https://github.com/ElizaSmv/FrontEndElective#readme",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0"
+  },
+  "type": "module"
+}

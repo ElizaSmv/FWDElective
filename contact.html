@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Elizaveta Semenova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <button class="openbtn" id="open-nav-button">Menu</button>
+</header>
+
+<div id="mySidebar" class="sidebar">
+    <div class="closebtn" id="close-nav-button">×</div>
+    <div><b>Menu</b></div>
+    <div class="link-text"><a href="index.html">About</a></div>
+    <div class="link-text"> <a href="photos.html">Photos </a></div>
+    <div class="link-text"><a href="contact.html"> Contact me</a></div>
+    <div></div>
+    <div><button class="donatebtn"> Donate</button> </div>
+</div>
+
+<div id="main">
+    <h1>My contacts</h1>
+    <p>  </p>
+    <h4>You can contact me via Telegram or using my phone number.</h4>
+    <p></p>
+    <ul style="margin-block-start: 0;">
+        <li><a href="https://t.me/eliza_smv" id="tg-link">
+            <img src ="/images/telegram-logo.jpg" height="40px" /></a> Telegram  .</li>
+        <li><a href="https://instagram.com/eliza_smv/" id="insta-link">
+            <img src ="/images/inst.png" height="40px" /></a> Instagram  .</li>
+        <li><a href="https://github.com/ElizaSmv" id="github-link">
+            <img src ="/images/github.png" height="40px" /></a> Github  .</li>
+    </ul>
+    <p></p>
+    <p><img src ="/images/phone.jpg" height="40px" /> My phone number: <a href="tel:+79774984921">8-977-498-49-21</a> </p>
+    <p></p>
+    <div class="container">
+        <form>
+            <h2> GET IN TOUCH </h2>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+
+            <textarea id="message" rows="4" placeholder="Write Something"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+<script src="bundle.js"></script>
+</body>
+</html>
