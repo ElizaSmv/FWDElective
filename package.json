@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElizaSmv/FrontEndElective.git"
+    "url": "git+https://github.com/ElizaSmv/FWDElective.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElizaSmv/FrontEndElective/issues"
+    "url": "https://github.com/ElizaSmv/FWDElective/issues"
   },
-  "homepage": "https://github.com/ElizaSmv/FrontEndElective#readme",
+  "homepage": "https://github.com/ElizaSmv/FWDElective#readme",
   "description": "",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.0.0",
